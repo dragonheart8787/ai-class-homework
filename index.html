@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>劉哲廷 | 個人網站</title>
+  <meta name="description" content="劉哲廷的個人網站：興趣、學習 AI 的原因、專案作品與聯絡方式。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="主選單">
+      <a class="nav__brand" href="#top">劉哲廷</a>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="開啟選單">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#interests">興趣</a></li>
+        <li><a href="#why-ai">學 AI 的原因</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- 姓名區塊 -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">Hello, 我是</p>
+        <h1 class="hero__name">劉哲廷</h1>
+        <p class="hero__tagline">正在學習 AI 的學生 · 喜歡把想法做成能跑的東西</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">看看我的專案</a>
+          <a class="btn btn--ghost" href="#contact">聯絡我</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 關於我 -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">關於我</h2>
+        <p class="section__lead">
+          我是劉哲廷，目前正在修習 AI 相關課程。喜歡從動手做中學習：遇到問題先查資料、做一個最小可行的版本，
+          再一步步把它改好。這個網站會持續記錄我的學習歷程與作品。
+        </p>
+      </div>
+    </section>
+
+    <!-- 興趣 -->
+    <section class="section section--alt" id="interests">
+      <div class="container">
+        <h2 class="section__title">興趣</h2>
+        <ul class="cards cards--interests">
+          <li class="card">
+            <h3 class="card__title">寫程式 / 做小工具</h3>
+            <p class="card__text">喜歡把日常的麻煩事寫成腳本或小網站，看到自動跑起來很有成就感。</p>
+          </li>
+          <li class="card">
+            <h3 class="card__title">研究新科技</h3>
+            <p class="card__text">關注 AI、應用開發等新工具，喜歡實際上手玩過一輪再下判斷。</p>
+          </li>
+          <li class="card">
+            <h3 class="card__title">遊戲與設計</h3>
+            <p class="card__text">除了玩，也會去拆解遊戲的系統設計與互動流程，想想「如果是我會怎麼做」。</p>
+          </li>
+          <li class="card">
+            <h3 class="card__title">閱讀與筆記</h3>
+            <p class="card__text">習慣把看過的內容整理成自己的筆記，寫得出來才算真的懂。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 我想學 AI 的原因 -->
+    <section class="section" id="why-ai">
+      <div class="container">
+        <h2 class="section__title">我想學 AI 的原因</h2>
+        <blockquote class="statement">
+          <p>
+            第一次看到 AI 幫我把一個原本要花好幾天的工作在幾分鐘內做出草稿時，我意識到這不只是方便，
+            而是改變了「一個人能做到多少事」的上限。我想學 AI，是因為我不想只是使用別人做好的工具，
+            而是希望理解它背後怎麼運作、知道它什麼時候會出錯，並且有能力把它組成真正解決問題的東西。
+          </p>
+          <p>
+            對我來說，AI 是一個放大器：它放大你的想法，也放大你的盲點。所以我想踏實地學，
+            從基礎概念到實作專案，一步一步把能力累積起來。
+          </p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__lead">以下是我做過的一些專案。<!-- TODO: 替換成你自己的專案內容與連結 --></p>
+        <ul class="cards cards--projects">
+          <li class="card card--project">
+            <h3 class="card__title">AI 課程作業集</h3>
+            <p class="card__text">整理課堂上的程式作業與練習，記錄每一次從不會到做出來的過程。</p>
+            <p class="card__tags"><span class="tag">Python</span><span class="tag">課程作業</span></p>
+            <a class="card__link" href="https://github.com/dragonheart8787/ai-class-homework">查看專案 →</a>
+          </li>
+          <li class="card card--project">
+            <h3 class="card__title">個人網站 (GitHub Pages)</h3>
+            <p class="card__text">用 HTML / CSS / JavaScript 從零架起這個網站，並透過 GitHub Pages 部署上線。</p>
+            <p class="card__tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">GitHub Pages</span></p>
+            <a class="card__link" href="https://github.com/dragonheart8787/ai-class-homework">查看專案 →</a>
+          </li>
+          <li class="card card--project">
+            <h3 class="card__title">AI 應用小實驗</h3>
+            <p class="card__text">串接大型語言模型 API 做的小工具，練習提示設計與把模型輸出接進實際流程。</p>
+            <p class="card__tags"><span class="tag">LLM API</span><span class="tag">實驗</span></p>
+            <a class="card__link" href="#contact">敬請期待 →</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <p class="section__lead">歡迎透過以下方式找我，合作、交流或只是聊聊都可以。</p>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <span class="contact-item__label">Email</span>
+            <span class="contact-item__value">your-email@example.com <!-- TODO: 填入你的 email --></span>
+          </li>
+          <li class="contact-item">
+            <span class="contact-item__label">GitHub</span>
+            <a class="contact-item__value" href="https://github.com/dragonheart8787">github.com/dragonheart8787</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-item__label">其他</span>
+            <span class="contact-item__value">（此處可填 LinkedIn / Instagram / Discord 等）</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> 劉哲廷 · Built with HTML, CSS &amp; GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
