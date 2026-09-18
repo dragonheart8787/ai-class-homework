@@ -46,11 +46,11 @@
 
   --lift: 0 10px 34px -18px rgba(0, 0, 0, 0.85);
 
-  /* 中文一律 Noto Sans TC（教育部標準字形）；拉丁字用 IBM Plex。
-     標題與內文共用同一字體堆疊，靠字重、字級與字距區分層級。 */
-  --font-display: "IBM Plex Sans", "Plex Metric Fallback", "Noto Sans TC",
+  /* 標題 Noto Serif TC、內文 Noto Sans TC，兩者同為思源家族的台灣版，
+     字形標準一致（已逐字驗證頁面上的台港分歧字皆為台標寫法）。 */
+  --font-display: "Noto Serif TC", "Source Han Serif TC", serif;
+  --font-body: "IBM Plex Sans", "Plex Metric Fallback", "Noto Sans TC",
     "PingFang TC", "Microsoft JhengHei", sans-serif;
-  --font-body: var(--font-display);
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo,
     "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", monospace;
 
@@ -176,9 +176,9 @@ a { color: var(--accent); }
 
 .nav__brand {
   font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.06rem;
-  letter-spacing: 0.14em;
+  font-weight: 600;
+  font-size: 1.12rem;
+  letter-spacing: 0.1em;
   color: var(--text);
   text-decoration: none;
 }
@@ -253,9 +253,9 @@ a { color: var(--accent); }
   margin: 0 0 14px;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2.5rem, 8vw, 4.1rem);
-  line-height: 1.12;
-  letter-spacing: 0.1em;
+  font-size: clamp(2.6rem, 8.5vw, 4.3rem);
+  line-height: 1.1;
+  letter-spacing: 0.07em;
 }
 
 .hero__tagline {
@@ -289,10 +289,10 @@ a { color: var(--accent); }
 .section__title {
   margin: 0 0 8px;
   font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(1.35rem, 4.2vw, 1.65rem);
-  line-height: 1.34;
-  letter-spacing: 0.07em;
+  font-weight: 600;
+  font-size: clamp(1.4rem, 4.4vw, 1.74rem);
+  line-height: 1.32;
+  letter-spacing: 0.05em;
 }
 .section__title::after {
   content: "";
